@@ -9,7 +9,7 @@ pip install tensorflow-gpu==1.14.0
 pip install opencv-python
 ```
 
-GPU 2GB: OOM error with defaults
+GPU 12GB: OOM error with defaults
 
 Original README below:
 
