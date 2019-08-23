@@ -1,4 +1,20 @@
+
+# My Notes for U-GAT-IT
+```
+conda create -n ugatit_p37 python=3.7
+conda activate ugatit_p37
+pip install pipreqs
+pipreqs .
+pip install tensorflow-gpu==1.14.0
+pip install opencv-python
+```
+
+GPU 2GB: OOM error with defaults
+
+Original README below:
+
 ## U-GAT-IT &mdash; Official TensorFlow Implementation
+
 ### : Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation
 
 <div align="center">
