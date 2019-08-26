@@ -9,6 +9,7 @@ pip install tensorflow-gpu==1.14.0
 pip install opencv-python
 ```
 Recommended GPU to replicate paper results: 32GB
+
 GPU 12GB: OOM error with defaults, trains fine with --light TRUE
 
 Original README below:
