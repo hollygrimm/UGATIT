@@ -1,5 +1,7 @@
 
 # My Notes for U-GAT-IT
+
+## Install
 ```
 conda create -n ugatit_p37 python=3.7
 conda activate ugatit_p37
@@ -8,11 +10,23 @@ pipreqs .
 pip install tensorflow-gpu==1.14.0
 pip install opencv-python
 ```
+
+## Train
 Recommended GPU to replicate paper results: 32GB
 
 GPU 12GB: OOM error with defaults, trains fine with --light TRUE
 
-Original README below:
+```
+python main.py --dataset life2landscape --light TRUE
+```
+
+## Test
+GPU 2GB works with default 256px images
+```
+python main.py --dataset life2landscape --light TRUE --phase test
+```
+
+# Original README below:
 
 ## U-GAT-IT &mdash; Official TensorFlow Implementation
 
